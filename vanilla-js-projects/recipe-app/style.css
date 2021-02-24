@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    background-color: hsl(0, 0%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.mobile-container {
+    width: 500px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search span {
+    margin: 0 10px;
+}
+
+.search input {
+    background-color: rgb(252, 246, 246);
+}
+
+.fav-meals {
+    border: 1px solid rgb(226, 224, 224);
+    margin: 3px;
+    background-color: rgb(252, 245, 245);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    padding: 10px
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+ul li img {
+    height: 100px;
+    width: 100px;
+}
+
+
+
+.meal-body {
+    margin: 10px;
+    border: 1px solid rgb(167, 164, 164);
+    background-color: rgb(250, 246, 246);
+}
+
+
+.meal-body img {
+    max-width: 100%;
+    max-height: 70%;
+}
+
+.rand {
+    padding: 10px;
+}
+
+.rand i {
+    
+    cursor: pointer;
+}
+
+.fav-btn {
+    float: right;
+    border: none;
+}
+
+.fav-btn.active {
+    color: rebeccapurple;;
+}
